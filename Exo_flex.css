@@ -1,0 +1,50 @@
+#conteneur{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    font-size: 14px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+header{
+    background-color: #E07A5F;
+    color: white;
+    font-weight: bold;
+}
+
+nav{
+    background-color: #3D405B;
+    color: white;
+}
+
+article{
+    background-color: white;
+}
+
+aside{
+    background-color: #81B29A;
+}
+
+footer{
+    background-color: #F2CC8F;
+    font-size: 12px;
+}
+
+.element:nth-child(1){
+    flex: 1;
+}
+
+.element:nth-child(2){
+    flex: 2;
+}
+
+.element:nth-child(3){
+    flex: 1;
+}
